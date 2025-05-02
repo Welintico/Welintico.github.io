@@ -1,0 +1,287 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero {
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    padding: 50px 20px;
+    width: 100%;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+.project-history {
+    max-width: 800px;
+    text-align: center;
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 50px 20px;
+    width: 100%;
+}
+
+.project-history h2 {
+    font-size: 2em;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.project-history p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.mission-vision {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #007bff;
+    color: white;
+    padding: 50px 20px;
+    width: 100%;
+}
+
+.mission, .vision {
+    max-width: 400px;
+    text-align: center;
+    background-color: #0056b3;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth effect */
+}
+
+.mission:hover, .vision:hover {
+    transform: translateY(-10px); /* Elevate the block */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
+
+.mission h2, .vision h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.mission p, .vision p {
+    font-size: 1.2em;
+}
+
+.values {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+    text-align: center;
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 50px 20px;
+    width: 100%;
+}
+
+.values h2 {
+    width: 100%; /* Ensure the title spans the full width */
+    font-size: 2.5em; /* Adjust font size for emphasis */
+    color: #007bff; /* Match the color shown in the image */
+    margin-bottom: 20px; /* Add space below the title */
+}
+
+.value {
+    background-color: #007bff;
+    color: white;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 10px;
+    flex: 1 1 30%;
+    max-width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth effect */
+}
+
+.value:hover {
+    transform: translateY(-10px); /* Elevate the block */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
+
+.value h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.value p {
+    font-size: 1.2em;
+}
+
+.team {
+    display: flex; /* Display team members horizontally */
+    justify-content: center; /* Center the team members */
+    flex-wrap: wrap; /* Allow wrapping if necessary */
+    max-width: 100%; /* Adjust the width to fit the container */
+    text-align: center;
+    background-color: #0056b3; /* Match the background color */
+    color: white;
+    padding: 50px 20px;
+    width: 100%;
+}
+
+.team h2 {
+    width: 100%; /* Ensure the title spans the full width */
+    font-size: 2.5em; /* Adjust font size for emphasis */
+    color: #ffffff; /* Match the color shown in the image */
+    margin-bottom: 20px; /* Add space below the title */
+}
+
+.team-member {
+    margin: 20px;
+    flex: 1 1 30%;
+    max-width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth effect */
+}
+
+.team-member:hover {
+    transform: translateY(-10px); /* Elevate the block */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #ffffff; /* Add border to match the image style */
+    margin-bottom: 10px;
+}
+
+.team-member h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.team-member p {
+    font-size: 1.2em;
+}
+
+.testimonials {
+    max-width: 800px;
+    text-align: center;
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 50px 20px;
+    width: 100%;
+}
+
+.testimonials h2 {
+    font-size: 2em;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    background-color: #007bff;
+    color: white;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth effect */
+}
+
+.testimonial:hover {
+    transform: translateY(-10px); /* Elevate the block */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
+
+.testimonial p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.contact {
+    display: flex; /* Display contact methods horizontally */
+    justify-content: center; /* Center the contact methods */
+    flex-wrap: wrap; /* Allow wrapping if necessary */
+    max-width: 100%; /* Adjust the width to fit the container */
+    text-align: center;
+    background-color: #0056b3; /* Match the background color */
+    color: white;
+    padding: 50px 20px;
+    width: 100%;
+}
+
+.contact h2 {
+    width: 100%; /* Ensure the title spans the full width */
+    font-size: 2.5em; /* Adjust font size for emphasis */
+    color: #ffffff; /* Match the color shown in the image */
+    margin-bottom: 20px; /* Add space below the title */
+}
+
+.contact-method {
+    margin: 20px;
+    flex: 1 1 40%;
+    max-width: 400px;
+    background-color: #007bff;
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth effect */
+}
+
+.contact-method:hover {
+    transform: translateY(-10px); /* Elevate the block */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
+
+.contact-method i {
+    font-size: 2em; /* Adjust icon size */
+    margin-bottom: 10px; /* Add space below the icon */
+    color: #ffffff; /* Ensure the icon color matches the text */
+}
+
+.contact-method h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.contact-method p {
+    font-size: 1.2em;
+}
+
+.footer {
+    width: 100%; /* Ensure the section spans the full width */
+    max-width: none; /* Remove any max-width restriction */
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    padding: 50px 20px;
+}
+
+.footer h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.footer h4 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer ul li {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
